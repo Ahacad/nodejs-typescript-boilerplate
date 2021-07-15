@@ -1,5 +1,5 @@
 {
-  "name": "node-typescript-boilerplate",
+  "name": "@ahacad/node-typescript-boilerplate",
   "version": "0.1.0",
   "description": "nodejs typescript boilerplate",
   "engines": {

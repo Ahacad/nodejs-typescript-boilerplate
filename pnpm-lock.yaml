@@ -10,6 +10,7 @@ specifiers:
   eslint: ~7.30.0
   eslint-config-prettier: ~8.3.0
   eslint-plugin-jest: ~24.3.6
+  fs-extra: ^10.0.0
   jest: ~27.0.6
   prettier: ~2.3.2
   rimraf: ~3.0.2
@@ -32,6 +33,7 @@ devDependencies:
   eslint: 7.30.0
   eslint-config-prettier: 8.3.0_eslint@7.30.0
   eslint-plugin-jest: 24.3.6_c7802047a424f5f4702bce272d08e602
+  fs-extra: 10.0.0
   jest: 27.0.6
   prettier: 2.3.2
   rimraf: 3.0.2

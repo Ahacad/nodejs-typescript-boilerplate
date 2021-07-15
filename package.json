@@ -1,6 +1,6 @@
 {
   "name": "node-typescript-boilerplate",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "nodejs typescript boilerplate",
   "engines": {
     "node": ">= 14.16"
@@ -15,6 +15,7 @@
     "eslint": "~7.30.0",
     "eslint-config-prettier": "~8.3.0",
     "eslint-plugin-jest": "~24.3.6",
+    "fs-extra": "^10.0.0",
     "jest": "~27.0.6",
     "prettier": "~2.3.2",
     "rimraf": "~3.0.2",
@@ -26,6 +27,7 @@
   "scripts": {
     "start": "node build/src/main.js",
     "clean": "rimraf coverage build tmp",
+    "release": "zx scripts/release.mjs",
     "prebuild": "npm run lint",
     "build": "tsc -p tsconfig.release.json",
     "build:watch": "tsc -w -p tsconfig.release.json",

@@ -37,6 +37,10 @@
   },
   "author": "ahacad <ahacad@126.com>",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ahacad/node-typescript-boilerplate/issues"
+  },
+  "homepage": "https://github.com/Ahacad/node-typescript-boilerplate/#readme",
   "dependencies": {
     "tslib": "~2.3.0"
   },
